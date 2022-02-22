@@ -7,6 +7,18 @@
   margin-right: 50px;
 }
 
-ul {
-  list-style-type: decimal-leading-zero;
+.error {
+  border: solid red 3px;
+}
+
+.errorMessage {
+  color: red;
+}
+
+.activeFilter {
+  background-color: aquamarine;
+}
+
+.isDone {
+  opacity: 0.5;
 }
