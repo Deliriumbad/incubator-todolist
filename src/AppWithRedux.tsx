@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useCallback} from 'react';
 import './App.css';
 import {TaskType, Todolist} from './Todolist';
 import {AddItemForm} from './AddItemForm';
@@ -24,32 +24,33 @@ export type TasksStateType = {
     [key: string]: Array<TaskType>
 }
 
-
 function AppWithRedux() {
+
+    console.log('App is called')
 
     const todolists = useSelector<AppRootStateType, Array<TodolistType>>(state => state.todolists)
 
     const dispatch = useDispatch();
 
-    function changeFilter(value: FilterValuesType, todolistId: string) {
+    const changeFilter = useCallback((value: FilterValuesType, todolistId: string) => {
         const action = changeTodolistFilterAC(todolistId, value);
         dispatch(action);
-    }
+    }, [dispatch])
 
-    function removeTodolist(id: string) {
+    const removeTodolist = useCallback((id: string) => {
         const action = removeTodolistAC(id);
         dispatch(action);
-    }
+    }, [dispatch])
 
-    function changeTodolistTitle(id: string, title: string) {
+    const changeTodolistTitle = useCallback((id: string, title: string) => {
         const action = changeTodolistTitleAC(id, title);
         dispatch(action);
-    }
+    }, [dispatch])
 
-    function addTodolist(title: string) {
+    const addTodolist = useCallback( (title: string) => {
         const action = addTodolistAC(title);
         dispatch(action);
-    }
+    }, [dispatch])
 
     return (
         <div className="App">
