@@ -1,6 +1,6 @@
 import React from 'react';
-import {Task} from "./Task";
-import {ReduxStoreProviderDecorator} from "./stories/ReduxStoreProviderDecorator";
+import {Task} from "../Task";
+import {ReduxStoreProviderDecorator} from "./ReduxStoreProviderDecorator";
 
 export default {
     title: 'Task Component',
