@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/incubator-todolist/static/css/main.48934d97.chunk.css",
+    "main.js": "/incubator-todolist/static/js/main.8459d59e.chunk.js",
+    "main.js.map": "/incubator-todolist/static/js/main.8459d59e.chunk.js.map",
+    "runtime-main.js": "/incubator-todolist/static/js/runtime-main.643d32d6.js",
+    "runtime-main.js.map": "/incubator-todolist/static/js/runtime-main.643d32d6.js.map",
+    "static/js/2.b461db07.chunk.js": "/incubator-todolist/static/js/2.b461db07.chunk.js",
+    "static/js/2.b461db07.chunk.js.map": "/incubator-todolist/static/js/2.b461db07.chunk.js.map",
+    "static/js/3.3102cafb.chunk.js": "/incubator-todolist/static/js/3.3102cafb.chunk.js",
+    "static/js/3.3102cafb.chunk.js.map": "/incubator-todolist/static/js/3.3102cafb.chunk.js.map",
+    "index.html": "/incubator-todolist/index.html",
+    "static/css/main.48934d97.chunk.css.map": "/incubator-todolist/static/css/main.48934d97.chunk.css.map",
+    "static/js/2.b461db07.chunk.js.LICENSE.txt": "/incubator-todolist/static/js/2.b461db07.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.643d32d6.js",
+    "static/js/2.b461db07.chunk.js",
+    "static/css/main.48934d97.chunk.css",
+    "static/js/main.8459d59e.chunk.js"
+  ]
+}
