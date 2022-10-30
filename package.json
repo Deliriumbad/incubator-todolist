@@ -2,6 +2,7 @@
   "name": "incubator-todolist",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Deliriumbad.github.io/incubator-todolist",
   "dependencies": {
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
@@ -16,6 +17,7 @@
     "@types/react-dom": "^17.0.0",
     "@types/react-redux": "^7.1.18",
     "axios": "^0.22.0",
+    "gh-pages": "^4.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.5",
@@ -29,7 +31,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
